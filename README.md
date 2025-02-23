@@ -1,6 +1,23 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### View project here 👇
+👉 Code Sandbox Link: [Click here to check out](https://codesandbox.io/p/github/Ac-ayush/ProgressBar)
+
+#### Screenshot
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/2f77b866-5537-4f8b-bcb2-3383f53e3a11" />
+
+### Key Functionalities
+- Insert new progress (range 1-100)
+- left to right progress bar with moving effect
+- progress increasing by `10%` after every `0.5` second
+- smooth colors changing effect:
+  - `red < 25% progress`
+  - `yellow < 75% progress`
+  - `green < 100% progress`
+  
+
+
+
 
 Currently, two official plugins are available:
 
