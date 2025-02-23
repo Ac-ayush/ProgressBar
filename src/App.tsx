@@ -65,7 +65,7 @@ function App() {
           justifyContent: "center",
         }}
       >
-        Progress Bar
+        Progress Bars
       </h1>
 
       <div className="input-container">
