@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.input-container {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputbox {
+  width: 150px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.insertBtn {
+  display: inline-block; /*span is an inline element by default*/
+  text-align: center;
+  border: 2px solid rgb(236, 91, 7);
+  border-radius: 3px;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.outer {
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: rgb(167, 168, 164);
+  margin-bottom: 20px;
+}
+
+.inner {
+  text-align: right;
+  /* background-color: rgb(45, 45, 234); */
+  font-weight: 500;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
